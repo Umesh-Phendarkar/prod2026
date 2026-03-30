@@ -22,8 +22,8 @@ provider "aws" {
   region = "ap-south-1"
 }
 
-resource "aws_s3_bucket" "bucket01" {
-  bucket = "my-s3-bucket-march-30-2026-9090"
+resource "aws_s3_bucket" "bucket02" {
+  bucket = "my-s3-bucket-march-31-2026-8080"
 
   tags = {
     Environment = "dev"
